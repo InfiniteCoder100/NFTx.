@@ -1,0 +1,152 @@
+.detailPage {
+    background-color: #fffead;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Heading {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.HeadingText {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.optionButton {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+Button {
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.detailInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    /* margin-top: 1%; */
+    margin: 2% 2%;
+}
+
+.nameInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.descriptionInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.chainInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.descriptionInput input {
+    width: 50%;
+}
+
+h5 {
+    margin: 4px 0 0 0;
+    font-size: 16px;
+}
+
+input {
+    width: 40%;
+    height: 20%;
+}
+
+/* .submitNFT {
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 10%;
+    margin: auto auto;
+} */
+
+.submitNFT {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 20%;
+    margin: auto auto;
+  }
+  
+  .submitNFT:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .submitNFT:hover {
+    background-color: #2c974b;
+  }
+  
+  .submitNFT:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+  }
+  
+  .submitNFT:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+  }
+  
+  .submitNFT:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
+
+.warnText {
+    margin-top: 2%;
+    text-align: center;
+    color: red;
+    font-size: 14px !important;
+}
